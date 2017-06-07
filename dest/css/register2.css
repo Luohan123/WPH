@@ -1,0 +1,164 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html, body {
+  height: 100%;
+  font-family: 'Microsoft YaHei'; }
+
+.head {
+  width: 100%;
+  height: 45px;
+  background-color: #fefefe; }
+  .head .icon {
+    width: 5%;
+    height: 45px;
+    font-family: 'iconfont';
+    font-size: 24px;
+    text-align: center;
+    line-height: 45px;
+    float: left;
+    margin-left: 2%; }
+  .head .title {
+    width: 36%;
+    height: 45px;
+    margin-right: 33%;
+    text-align: center;
+    line-height: 45px;
+    font-size: 18px;
+    color: #000;
+    float: right; }
+
+.send {
+  width: 100%;
+  height: 50px;
+  background-color: #f3f4f5;
+  border-top: 1px solid #aaaaab; }
+  .send .send-font {
+    width: 57%;
+    height: 20px;
+    color: #989aa0;
+    float: left;
+    margin-left: 4%;
+    margin-top: 20px;
+    font-size: 14px; }
+
+.set {
+  width: 100%;
+  height: 52px;
+  background-color: #fff; }
+  .set .code {
+    width: 62%;
+    height: 51px;
+    border-bottom: 1px solid #e7e7e7;
+    margin-left: 6%; }
+    .set .code .code-left {
+      width: 25%;
+      height: 51px;
+      color: #222222;
+      text-align: center;
+      line-height: 51px;
+      font-size: 18px; }
+    .set .code .verification {
+      width: 70%;
+      height: 51px;
+      color: #c7c7cd;
+      font-size: 16px;
+      outline: none;
+      border: none;
+      float: right; }
+  .set .obtain {
+    width: 34%;
+    height: 51px;
+    background-color: #fff;
+    border-bottom: 1px solid #e7e7e7;
+    border-left: 1px solid #e7e7e7;
+    float: right;
+    margin-top: -52px; }
+    .set .obtain .obtain-code {
+      width: 34%;
+      height: 50px;
+      font-size: 16px;
+      color: #999;
+      text-align: center;
+      line-height: 50px;
+      margin-left: 10%; }
+
+.space {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px; }
+
+.set-two {
+  width: 100%;
+  height: 52px;
+  text-align: center;
+  line-height: 52px; }
+  .set-two .set-password {
+    width: 22%;
+    height: 52px;
+    color: #222222;
+    text-align: center;
+    line-height: 52px;
+    margin-left: 4%;
+    float: left; }
+  .set-two .password {
+    width: 48%;
+    height: 50px;
+    padding-left: 5px;
+    line-height: 50px;
+    margin-left: -2%;
+    font-size: 16px;
+    outline: none;
+    border: none; }
+  .set-two .icon-left {
+    width: 8%;
+    height: 50px;
+    font-family: 'iconfont';
+    font-size: 18px;
+    color: #ccc;
+    float: right;
+    margin-right: 3%;
+    display: none; }
+  .set-two .icon-right {
+    width: 8%;
+    height: 50px;
+    font-family: 'iconfont';
+    font-size: 22px;
+    color: #ccc;
+    float: right; }
+
+.under {
+  width: 100%;
+  height: 318px;
+  background-color: #f3f4f5;
+  overflow: hidden; }
+  .under .registered {
+    width: 94%;
+    height: 43px;
+    background-color: #e0e0e1;
+    color: #bfbfbf;
+    border-radius: 4px;
+    margin-left: 3%;
+    margin-top: 30px;
+    line-height: 40px;
+    text-align: center; }
+  .under .footer {
+    width: 70%;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-left: 3%; }
+    .under .footer .footer-left {
+      width: 50%;
+      height: 30px;
+      color: #c7c8cd;
+      float: left;
+      font-size: 14px; }
+    .under .footer .footer-right {
+      width: 50%;
+      height: 30px;
+      color: #649ddc;
+      float: right;
+      font-size: 14px; }
