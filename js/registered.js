@@ -35,4 +35,4 @@ $(".next-step").click(function () {
     } else {
         alert('请输入正确的手机号');
     }
-})
+});

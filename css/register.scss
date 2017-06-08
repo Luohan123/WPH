@@ -5,6 +5,7 @@
 }
 html,body{
   height: 100%;
+  background-color: #f3f4f5;
   font-family: 'Microsoft YaHei';
 }
 .head{
@@ -73,7 +74,6 @@ html,body{
 .under{
   width: 100%;
   height: 420px;
-  background-color: #f3f4f5;
   overflow: hidden;
   .next{
     width: 94%;

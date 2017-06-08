@@ -5,6 +5,7 @@
 }
 html,body{
   height: 100%;
+  background-color: #f3f4f5;;
   font-family: 'Microsoft YaHei';
 }
 .head{
@@ -96,12 +97,15 @@ html,body{
 .space{
   width: 100%;
   height: 50px;
+  background-color: #fff;
   text-align: center;
   line-height: 50px;
 }
 .set-two{
   width: 100%;
   height: 52px;
+  background-color: #fff;
+  border-top: 1px solid #f3f4f5;
   text-align: center;
   line-height: 52px;
   .set-password{
@@ -123,13 +127,6 @@ html,body{
     outline: none;
     border: none;
   }
-  //.icons{
-  //  width: 12%;
-  //  height: 51px;
-  //  float: right;
-  //  text-align: center;
-  //  line-height: 50px;
-  //}
   .icon-left{
     width: 8%;
     height: 50px;
@@ -152,7 +149,6 @@ html,body{
 .under {
   width: 100%;
   height: 318px;
-  background-color: #f3f4f5;
   overflow: hidden;
   .registered{
     width: 94%;

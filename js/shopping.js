@@ -1,7 +1,7 @@
 $(function () {
     var list = [
         {
-            src: "images/shopping2.jpg",
+            src: "images/shopping2.png",
             font: "欧莱雅&nbsp;|&nbsp;复颜紧致日霜+晚霜+眼妆抗皱组合",
             dollar: "￥542",
             line: "￥894",
@@ -10,7 +10,7 @@ $(function () {
             firming: "提拉紧致",
         },
         {
-            src: "images/shopping2.jpg",
+            src: "images/shopping2.png",
             font: "欧莱雅&nbsp;|&nbsp;复颜紧致日霜+晚霜+眼妆抗皱组合",
             dollar: "￥542",
             line: "￥894",
@@ -19,7 +19,7 @@ $(function () {
             firming: "提拉紧致",
         },
         {
-            src: "images/shopping2.jpg",
+            src: "images/shopping2.png",
             font: "欧莱雅&nbsp;|&nbsp;复颜紧致日霜+晚霜+眼妆抗皱组合",
             dollar: "￥542",
             line: "￥894",
@@ -28,7 +28,7 @@ $(function () {
             firming: "提拉紧致",
         },
         {
-            src: "images/shopping2.jpg",
+            src: "images/shopping2.png",
             font: "欧莱雅&nbsp;|&nbsp;复颜紧致日霜+晚霜+眼妆抗皱组合",
             dollar: "￥542",
             line: "￥894",
@@ -37,7 +37,7 @@ $(function () {
             firming: "提拉紧致",
         },
         {
-            src: "images/shopping2.jpg",
+            src: "images/shopping2.png",
             font: "欧莱雅&nbsp;|&nbsp;复颜紧致日霜+晚霜+眼妆抗皱组合",
             dollar: "￥542",
             line: "￥894",
@@ -46,7 +46,7 @@ $(function () {
             firming: "提拉紧致",
         },
         {
-            src: "images/shopping2.jpg",
+            src: "images/shopping2.png",
             font: "欧莱雅&nbsp;|&nbsp;复颜紧致日霜+晚霜+眼妆抗皱组合",
             dollar: "￥542",
             line: "￥894",
@@ -55,7 +55,7 @@ $(function () {
             firming: "提拉紧致",
         },
         {
-            src: "images/shopping2.jpg",
+            src: "images/shopping2.png",
             font: "欧莱雅&nbsp;|&nbsp;复颜紧致日霜+晚霜+眼妆抗皱组合",
             dollar: "￥542",
             line: "￥894",
@@ -69,19 +69,21 @@ $(function () {
     function lists(json) {
         var list =
                     '<div class="content" >'+
-                        '<img src="'+json.src+'" width="25%">'+
-                            '<div class="details">'+
-                                '<div class="detail">'+
-                                    '<p class="font">'+json.font+'</p>'+
-                                    '<div class="money">'+
-                                        '<div class="dollar">'+json.dollar+'</div>'+
-                                        '<div class="line">'+json.line+'</div>'+
-                                        '<div class="discount">'+json.discount+'</div>'+
-                                    '</div>'+
-                                    '<div class="reduction">'+json.reduction+'</div>'+
+                        '<div class="pic">'+
+                            '<img src="'+json.src+'" width="90%">'+
+                        '</div>'+
+                        '<div class="details">'+
+                            '<div class="detail">'+
+                                '<p class="font">'+json.font+'</p>'+
+                                '<div class="money">'+
+                                    '<div class="dollar">'+json.dollar+'</div>'+
+                                    '<div class="line">'+json.line+'</div>'+
+                                    '<div class="discount">'+json.discount+'</div>'+
                                 '</div>'+
-                                '<div class="firming">'+json.firming+'</div>'+
+                                '<div class="reduction">'+json.reduction+'</div>'+
                             '</div>'+
+                            '<div class="firming">'+json.firming+'</div>'+
+                        '</div>'+
                     '</div>';
         return list;
     };
@@ -98,4 +100,20 @@ $(function () {
 
         page(list); //调用压面渲染接口/方法
 
-})
+});
+
+$(".price-font,.price-icons").click(function () {
+    $(".price-font,.price-icons").css({'color':'red'});
+});
+
+$(".discount-font,.discount-icons").click(function () {
+    $(".discount-font,.discount-icons").css({'color':'red'});
+});
+
+$(".screen").click(function () {
+    $(".list").show();
+});
+
+$(".cancel").click(function () {
+    $(".list").hide();
+});
